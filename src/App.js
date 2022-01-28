@@ -13,7 +13,6 @@ const App = () => {
       <h1>Studio Ghibli</h1>
       <MovieCard setter={setFilms}/>
       <MovieInfo film={film}/>
-
     </div>
   );
 }
