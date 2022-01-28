@@ -16,6 +16,10 @@ export default function MovieInfo({ film }) {
             <div>
             <h2>Released: {film.release_date}</h2>
             </div>
+            <div>
+             <img src={film.image}></img>
+            </div>
+
         </div>
         
     )
