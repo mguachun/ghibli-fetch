@@ -6,6 +6,7 @@ import MovieInfo from './MovieInfo';
 const App = () => {
   const [film, setFilms] = useState([]);
 
+  // make a filter for years movie was made
 
   return (
     <div className="App">
