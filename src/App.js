@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import MovieList from './MovieList';
 import MovieInfo from './MovieInfo';
+import Card from 'react-bootstrap/Card'
 // import YearFilter from './YearFilter';
 
 const App = () => {
@@ -14,8 +15,9 @@ const App = () => {
     <div className="App">
       <h1>Studio Ghibli</h1>
       {/* <YearFilter /> */}
-      <MovieList setter={setFilms} />
       <MovieInfo film={film} />
+      <MovieList setter={setFilms} />
+      
 
     </div>
   );
