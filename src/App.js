@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Studio Ghibli Collection</h1>
+      <h1 className="title">Studio Ghibli Collection</h1>
   
       <MovieInfo film={film} />
       <MovieList setter={setFilms} />
