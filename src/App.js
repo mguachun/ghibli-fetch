@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
+import { Carousel } from 'bootstrap';
 import './App.css';
 import MovieList from './MovieList';
 import MovieInfo from './MovieInfo';
-import Card from 'react-bootstrap/Card'
-// import YearFilter from './YearFilter';
+
 
 const App = () => {
   const [film, setFilms] = useState([]);
@@ -13,8 +13,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Studio Ghibli</h1>
-      {/* <YearFilter /> */}
+      <h1>Studio Ghibli Collection</h1>
+  
       <MovieInfo film={film} />
       <MovieList setter={setFilms} />
       
