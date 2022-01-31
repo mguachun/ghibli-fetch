@@ -11,13 +11,13 @@ export default function MovieInfo({ film }) {
             <h2>{film.director}</h2>
             </div>
             <div>
-            <h2> {film.producer}</h2>
+            <h2>{film.producer}</h2>
             </div>
             <div>
-            <h2> {film.release_date}</h2>
+            <h2>{film.release_date}</h2>
             </div>
             <div>
-             <img src={film.image}></img>
+             <img alt="movie poster of selected film" src={film.image}></img>
             </div>
 
         </div>
