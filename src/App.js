@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Carousel } from 'bootstrap';
 import './App.css';
 import MovieList from './MovieList';
 import MovieInfo from './MovieInfo';
