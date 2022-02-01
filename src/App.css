@@ -6,13 +6,26 @@
   grid-template-rows: 70px auto;
   grid-template-columns: 40% auto;
   height: 100vh;
+;
+}
+
+body {
+  background-color: rgb(252, 188, 184);
 }
 
 .title{
   text-align: left;
   padding-left: 10px;
+  
 }
 
 .description {
   margin: 25px;
+
+ 
 }
+.list{
+  padding-top: 25px;
+  
+}
+
