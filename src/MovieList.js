@@ -11,7 +11,7 @@ export default function MovieList({ setter }) {
     }, []);
 
     return (
-        <div>
+        <div className="list">
 
             {films && films.map(film => (
                 <div key={film.id} onClick={e => setter(film)}>
