@@ -18,10 +18,7 @@ export default function MovieInfo({ film }) {
             <h2>{film.producer}</h2>
           
             <h2>{film.release_date}</h2>
-          
-    
-          
-       
+          <br></br>
 
         </div>
         
