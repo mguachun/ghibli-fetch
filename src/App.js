@@ -4,6 +4,7 @@ import MovieList from './MovieList';
 import MovieInfo from './MovieInfo';
 
 
+
 const App = () => {
   const [film, setFilms] = useState([]);
 
@@ -16,6 +17,7 @@ const App = () => {
   
       <MovieInfo film={film} />
       <MovieList setter={setFilms} />
+      
       
 
     </div>
