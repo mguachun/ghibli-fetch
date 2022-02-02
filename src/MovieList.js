@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import HowTo from "./HowTo";
 export default function MovieList({ setter }) {
     const [films, setFilms] = useState([]);
 
@@ -12,6 +13,7 @@ export default function MovieList({ setter }) {
 
     return (
         <div className="list">
+            <HowTo />
 
             {films && films.map(film => (
                 <div key={film.id} onClick={e => setter(film)}>
