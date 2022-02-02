@@ -17,7 +17,7 @@ export default function MovieList({ setter }) {
 
             {films && films.map(film => (
                 <div key={film.id} onClick={e => setter(film)}>
-                    {film.title}
+                    <h2>{film.title}</h2>
                     
                 </div>
             ))}
