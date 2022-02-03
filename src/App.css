@@ -38,4 +38,6 @@ body {
   fill-opacity: 60px;
 }
 
-
+.description {
+  padding: 10px;
+}
