@@ -7,18 +7,18 @@ export default function MovieInfo({ film }) {
     return (
         <div className="info">
             
-            <h2>{film.title}</h2>
-            <h3>{film.original_title}</h3>
+            <h1>{film.title}</h1>
+            <h2>{film.original_title}</h2>
 
             <img src={film.image}></img>
 
             <h3 className="description">{film.description}</h3>
          
-            <h2>{film.director}</h2>
+            <h2 className="description">{film.director}</h2>
            
-            <h2>{film.producer}</h2>
+            <h2 className="description">{film.producer}</h2>
           
-            <h2>{film.release_date}</h2>
+            <h2 className="description">{film.release_date}</h2>
 
            
           <br></br>
