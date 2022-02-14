@@ -2,6 +2,7 @@
 This is a front end application using Reactjs and styled with React Boostrap/CSS. It is dedicated to the works of Studio Ghibli using the Ghibli API (https://ghibliapi.herokuapp.com/films). I created this app as a way to practice my React API skills while showing my love for all things Studio Ghibli! I'm always looking to learn and better myself in React, Bootstrap, Fetch, etc so please reach out if you have any questions or concerns! 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed with Github Pages.
 
 ## Available Scripts
 
