@@ -47,6 +47,6 @@ body {
   border-radius: 25px;
 }
 
-li {
+.list {
   cursor: pointer;
 }
