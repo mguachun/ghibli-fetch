@@ -4,6 +4,9 @@ This is a front end application using Reactjs and styled with React Boostrap/CSS
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project is deployed with Github Pages.
 
+##Fork and Clone:
+Fork and clone this project into your terminal. Once downloaded, drop this project into your code editor of your choosing. In the terminal of your code editor, run npm start to start a local server and run the Studio Ghibli Collection. 
+
 ## Available Scripts
 
 In the project directory, you can run:
