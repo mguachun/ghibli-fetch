@@ -12,7 +12,7 @@ export default function MovieList({ setter }) {
     }, []);
 
     return (
-        <div className="list">
+        <div className="films">
             <HowTo />
 
             {films && films.map(film => (
