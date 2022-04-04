@@ -28,25 +28,28 @@ body {
 
 .description {
   margin: 25px;
-
- 
 }
+
 .list{
-  padding-top: 25px;
+  cursor: pointer;
+  padding: 10px;
   background-color: rgb(239, 167, 167);
   border-radius: 25px;
   fill-opacity: 60px;
 }
 
-.description {
-  padding: 10px;
+.list:hover{
+  cursor: pointer;
+  color:rgba(229, 94, 122, 1);
 }
+
+
 
 .description {
   background-color: rgb(239, 167, 167);
   border-radius: 25px;
+  padding: 10px;
+
 }
 
-.list {
-  cursor: pointer;
-}
+
