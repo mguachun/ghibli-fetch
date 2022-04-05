@@ -24,6 +24,6 @@ export default function MovieList({ setter }) {
 
 
 
-        </div>
+        </div>  
     )
 }
